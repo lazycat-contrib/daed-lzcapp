@@ -1,0 +1,15 @@
+application:
+  subdomain: daed
+  background_task: true
+  upstreams:
+    - location: /
+      backend: http://host.lzcapp:2023/
+
+services:
+  daed:
+    # ghcr.io/daeuniverse/daed:1.27.0
+    image: ghcr.1ms.run/daeuniverse/daed:1.27.0
+    network_mode: host
+    netadmin: true
+    binds:
+      - /lzcapp/var/daed:/etc/daed

@@ -1,0 +1,11 @@
+manifest: ./lzc-manifest.yml
+pkgout: ./
+icon: ./icon.png
+
+compose_override:
+  services:
+    daed:
+      privileged: true
+      pid: "host"
+      volumes:
+        - /sys:/sys
