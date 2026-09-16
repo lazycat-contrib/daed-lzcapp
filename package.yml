@@ -2,7 +2,7 @@ package: community.lazycat.app.daed
 version: 1.27.0
 name: daed
 description: "A modern web dashboard for dae, a high-performance transparent proxy solution."
-min_os_version: 1.5.0
+min_os_version: "1.5.0"
 author: daeuniverse
 license: AGPL-3.0
 homepage: https://github.com/daeuniverse/daed
@@ -15,3 +15,6 @@ locales:
   zh:
     name: "daed"
     description: "dae 的现代化 Web 管理面板，高性能透明代理解决方案。"
+  en:
+    name: "daed"
+    description: "A modern web dashboard for dae, a high-performance transparent proxy solution."

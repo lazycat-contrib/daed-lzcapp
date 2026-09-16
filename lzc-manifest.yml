@@ -7,7 +7,7 @@ application:
 
 services:
   daed:
-    # ghcr.io/daeuniverse/daed:1.27.0
+    # upstream: ghcr.io/daeuniverse/daed:1.27.0
     image: ghcr.1ms.run/daeuniverse/daed:1.27.0
     network_mode: host
     netadmin: true
