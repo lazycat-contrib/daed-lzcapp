@@ -4,13 +4,11 @@ name: daed
 description: "A modern web dashboard for dae, a high-performance transparent proxy solution."
 min_os_version: "1.5.0"
 author: daeuniverse
-license: AGPL-3.0
+license: MIT
 homepage: https://github.com/daeuniverse/daed
-
 permissions:
   required:
     - net.internet
-
 locales:
   zh:
     name: "daed"
